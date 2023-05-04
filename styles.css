@@ -1,3 +1,13 @@
+:root{
+    --fundo-principal: #F5F5F5;
+    --segundo-tom: #C8D1E8;
+    --icones: #E1E8F4;
+    --fonte-roxa: #021ca161;
+    --fonte-preta: #000000;
+    --fonte-vermelha: #C12323;
+}
+
 body{
-    background-color: #7e91ee94;
+    background-color: var(--cor-de-fundo);
+    color: var(--fundo-principal);
 }
