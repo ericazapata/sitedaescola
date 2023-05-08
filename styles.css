@@ -1,5 +1,5 @@
 :root{
-    --fundo-principal: #F5F5F5;
+    --fundo-principal: #021ca127;
     --segundo-tom: #C8D1E8;
     --icones: #E1E8F4;
     --fonte-roxa: #021ca161;
@@ -8,6 +8,5 @@
 }
 
 body{
-    background-color: var(--cor-de-fundo);
-    color: var(--fundo-principal);
+    background-color: #021ca127
 }
