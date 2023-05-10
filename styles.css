@@ -10,3 +10,8 @@
 body{
     background-color: #021ca127
 }
+
+* {
+    margin: 10;
+    padding: 10;
+}
