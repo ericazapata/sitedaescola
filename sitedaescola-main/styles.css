@@ -1,0 +1,36 @@
+:root{
+    --fundo-principal: #021ca127;
+    --segundo-tom: #C8D1E8;
+    --icones: #E1E8F4;
+    --fonte-roxa: #021ca161;
+    --fonte-preta: #000000;
+    --fonte-vermelha: #C12323;
+}
+
+body{
+    background-color: #021ca127
+}
+
+* {
+    margin: 10;
+    padding: 10;
+}
+
+.principal{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--icones);
+    border-radius: 100px;
+    padding: 1em;
+    color: var(--fonte-preta);
+    display: block;
+}
