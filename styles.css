@@ -17,21 +17,21 @@ body{
     padding: 10;
 }
 
-.principal{
-    background-repeat: no-repeat;
-    background-size: contain;
+.cabeçalho{
+    background-color: #C8D1E8;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-    font-family: var(--fonte-principal);
+    padding: 24px 0;
 }
 
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
 
-.container__botao {
+.container_botao {
     background-color: var(--icones);
     border-radius: 100px;
     padding: 1em;
@@ -41,36 +41,23 @@ body{
     margin-bottom: 1em;
 }
 
-.container__titulo {
-    font-size: 28px;
-    font-weight: 700;
+.principal{
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonte-principal);
 }
 
-.container__imagem {
-    margin: 1em 0 2em 0;
+.container_compras{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.container__caixa {
-    margin: 0 6em;
-}
-
-.secundario__imagem{
-    width: 80%; 
-}
-
-.secundario{
+.container_secundario{
     align-items: center;
     margin: 0 10em;
 }
-.cabeçalho{
-    background-color: #C8D1E8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-.item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-}
+
+
