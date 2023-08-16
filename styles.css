@@ -7,57 +7,26 @@
     --fonte-vermelha: #C12323;
     --fonte-principal: 'Sora'
 }
-
-body{
-    background-color: #021ca127;
-}
-
 * {
     margin: 10;
     padding: 10;
 }
 
 .cabeçalho{
-    background-color: #C8D1E8;
+    background-color: var(--segundo-tom);
+    color: var(--fonte-preta);
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
 }
-
-.item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.carrinho{
+    width: 40%;
 }
-
-.container_botao {
-    background-color: var(--icones);
-    border-radius: 100px;
-    padding: 1em;
-    color: var(--fonte-preta);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+.coraçao{
+    width: 40%;
 }
-
-.principal{
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
-    font-family: var(--fonte-principal);
+.conta{
+    width: 40%;
 }
-
-.container_compras{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.pesquisar{
+    width: 30%;
 }
-
-.container_secundario{
-    align-items: center;
-    margin: 0 10em;
-}
-
-
