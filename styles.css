@@ -8,25 +8,42 @@
     --fonte-principal: 'Sora'
 }
 * {
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
 }
 
 .cabeçalho{
     background-color: var(--segundo-tom);
     color: var(--fonte-preta);
-    display: flex;
-    justify-content: space-around;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 5px;
+
+}
+.logo{
+    width: 50%;
+}
+.botao{
+    background-color: var(--icones); 
+    border-radius: 100px; 
+    padding: 1em; 
+    color: var(--fonte-preta);
+    display:block;
 }
 .carrinho{
-    width: 40%;
+    width: 50%;
 }
 .coraçao{
-    width: 40%;
+    width: 50%;
 }
 .conta{
-    width: 40%;
+    width: 50%;
 }
 .pesquisar{
-    width: 30%;
+    width: 10%;
+}
+.item{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
 }
