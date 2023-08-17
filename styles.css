@@ -47,3 +47,24 @@
     margin: 0 10px;
     font-size: 24px;
 }
+.icones{
+    background-color: var(--fundo-principal);
+    color: var(--fonte-preta);
+    display: flex;
+    
+}
+.pdf{
+    width: 9%;
+    margin: 50px;
+    padding: 50px;
+}
+.livros{
+    width: 8%;
+    margin: 30px;
+    padding: 50px;
+}
+.lojinha{
+    width: 10%;
+    margin:40px;
+    padding:30px;
+}
